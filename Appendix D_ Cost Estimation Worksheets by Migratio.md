@@ -111,25 +111,7 @@ This appendix provides structured worksheets, calculators, and formulas to estim
 ***
 
 These worksheets and templates form a starting point. For major efforts, combine with AWS's automated tools and periodically update your assumptions as real cloud usage patterns emerge. For downloadable templates and up-to-date calculators, visit the AWS Pricing Calculator page or request the Migration Evaluator service for personalized guidance.
-<span style="display:none">[^3][^5][^6]</span>
 
-<div style="text-align: center">⁂</div>
 
-[^1]: https://aws.amazon.com/migration-evaluator/pricing/
 
-[^2]: https://aws.amazon.com/blogs/aws-cloud-financial-management/la-get-cost-estimates-faster-with-aws-pricing-calculator-bulk-import/
-
-[^3]: https://portal.nutanix.com/page/documents/solutions/details?targetId=TN-2072-AHV-Migration%3Asample-cost-estimation-for-migrating-from-aws.html
-
-[^4]: https://docs.aws.amazon.com/pricing-calculator/latest/userguide/estimate-examples.html
-
-[^5]: https://docs.aws.amazon.com/solutions/latest/cloud-migration-factory-on-aws/cost.html
-
-[^6]: https://blog.clearscale.com/calculating-cloud-migration-costs/
-
-[^7]: https://aws.amazon.com/migration-hub/pricing/
-
-[^8]: https://calculator.aws
-
-[^9]: https://aws.amazon.com/application-migration-service/when-to-choose-aws-mgn/
 
