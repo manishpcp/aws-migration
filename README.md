@@ -54,8 +54,10 @@ This structure is based on patterns seen in AWS migration workshops and sample r
 ## Quick Start
 
 1) Clone the repository:
+```bash
 git clone https://github.com/manishpcp/aws-migration.git
 cd aws-migration
+```
 
 2) Review templates/sample_template.csv to understand the flat-file format for configuring MGN launch settings and EC2 Launch Templates at scale.
 3) Configure AWS CLI and environment variables for the target account and region:
