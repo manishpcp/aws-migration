@@ -1,4 +1,4 @@
-# Appendix G: 100+ AWS Migration Interview Questions with Answers
+# Appendix G: 60+ AWS Migration Interview Questions with Answers
 
 *Comprehensive Interview Guide for AWS Migration Professionals*
 
@@ -10,7 +10,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 1. What is AWS migration, and why is it important?
 
-**Answer:** AWS migration is the process of moving applications, data, and infrastructure from on-premises environments or other cloud platforms to Amazon Web Services. It's important because it enables organizations to:[^1][^6]
+**Answer:** AWS migration is the process of moving applications, data, and infrastructure from on-premises environments or other cloud platforms to Amazon Web Services. It's important because it enables organizations to:
 
 - Reduce operational costs by 20-50% through pay-as-you-use pricing
 - Improve scalability and elasticity to handle varying workloads
@@ -21,7 +21,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 2. What are the 7 Rs of AWS migration strategy?
 
-**Answer:** The 7 Rs are migration strategies defined by AWS:[^2][^1]
+**Answer:** The 7 Rs are migration strategies defined by AWS:
 
 1. **Retire** - Decommission applications no longer needed
 2. **Retain** - Keep applications on-premises for now
@@ -33,7 +33,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 3. How do you plan an AWS migration project?
 
-**Answer:** Planning involves several key phases:[^6][^1]
+**Answer:** Planning involves several key phases:
 
 1. **Assessment** - Inventory current infrastructure and applications
 2. **Business Case** - Develop TCO analysis and ROI projections
@@ -44,7 +44,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 4. What is AWS Application Migration Service (MGN)?
 
-**Answer:** AWS MGN is a lift-and-shift service that automates physical, virtual, and cloud server migrations to AWS. Key features include:[^3]
+**Answer:** AWS MGN is a lift-and-shift service that automates physical, virtual, and cloud server migrations to AWS. Key features include:
 
 - Continuous, block-level replication
 - Automated server conversion to boot on AWS
@@ -55,7 +55,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 5. What tools are available for database migration in AWS?
 
-**Answer:** AWS provides several database migration tools:[^1][^6]
+**Answer:** AWS provides several database migration tools:
 
 - **AWS Database Migration Service (DMS)** - Migrates databases with minimal downtime
 - **AWS Schema Conversion Tool (SCT)** - Converts database schemas between engines
@@ -66,7 +66,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 6. How do you ensure data security during migration?
 
-**Answer:** Data security during migration involves:[^1]
+**Answer:** Data security during migration involves:
 
 - **Encryption in transit** - Use TLS/SSL for all data transfers
 - **Encryption at rest** - Enable encryption for storage services
@@ -89,7 +89,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 8. How do you minimize downtime during migration?
 
-**Answer:** Downtime minimization strategies include:[^6][^1]
+**Answer:** Downtime minimization strategies include:
 
 - **Blue-green deployments** - Run parallel environments and switch over
 - **Database replication** - Use DMS for near-zero downtime database migrations
@@ -111,7 +111,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 10. What is AWS Direct Connect?
 
-**Answer:** AWS Direct Connect establishes a dedicated network connection from on-premises to AWS. Benefits include:[^5]
+**Answer:** AWS Direct Connect establishes a dedicated network connection from on-premises to AWS. Benefits include:
 
 - Consistent network performance and bandwidth
 - Reduced network costs compared to internet-based connections
@@ -122,7 +122,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 11. How do you validate migration success?
 
-**Answer:** Migration validation involves multiple verification steps:[^6][^1]
+**Answer:** Migration validation involves multiple verification steps:
 
 - **Functional testing** - Verify all application features work correctly
 - **Performance testing** - Ensure performance meets or exceeds baseline
@@ -134,7 +134,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 12. What is AWS Snowball and when do you use it?
 
-**Answer:** AWS Snowball is a petabyte-scale data transport solution for large-scale data transfers. Use cases include:[^2][^1]
+**Answer:** AWS Snowball is a petabyte-scale data transport solution for large-scale data transfers. Use cases include:
 
 - **Large data volumes** - 10 TB to 80 TB per device
 - **Limited bandwidth** - When network transfer would take weeks/months
@@ -164,7 +164,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 15. How do you handle application dependencies during migration?
 
-**Answer:** Dependency management strategies include:[^2][^6]
+**Answer:** Dependency management strategies include:
 
 - **Dependency mapping** - Use AWS Application Discovery Service
 - **Wave planning** - Migrate dependencies before dependent applications
@@ -219,7 +219,7 @@ This appendix provides an extensive collection of interview questions and detail
 
 ### 20. How do you ensure high availability in AWS?
 
-**Answer:** High availability strategies include:[^5][^2]
+**Answer:** High availability strategies include:
 
 - **Multi-AZ deployment** - Distribute resources across availability zones
 - **Load balancing** - Use ALB/NLB to distribute traffic
@@ -1984,15 +1984,5 @@ class MLMigrationOptimizer:
             portfolio_optimization['individual_recommendations'][app['id']] = {
                 'recommended_strategy': strategy_prediction['strategy'],
                 'confidence
-<span style="display:none">[^4][^7]</span>
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://www.mytectra.com/interview-question/migrating-to-aws-interview-question-and-answer
-[^2]: https://www.webasha.com/blog/top-50-cloud-migration-interview-questions-and-answers
-[^3]: https://docs.aws.amazon.com/mgn/latest/ug/General-Questions-FAQ.html
-[^4]: https://k21academy.com/awsmig-iq/
-[^5]: https://www.youtube.com/watch?v=eTXGYwjCAGM
-[^6]: https://www.apollotechnical.com/migrating-to-aws-interview-question-and-answers/
-[^7]: https://www.remoterocketship.com/advice/guide/devops-engineer/cloud-migration-interview-questions-and-answers```
+```
 
