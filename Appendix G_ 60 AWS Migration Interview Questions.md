@@ -1,4 +1,4 @@
-# Appendix G: 60+ AWS Migration Interview Questions with Answers
+# Appendix G: 60 AWS Migration Interview Questions with Answers
 
 *Comprehensive Interview Guide for AWS Migration Professionals*
 
