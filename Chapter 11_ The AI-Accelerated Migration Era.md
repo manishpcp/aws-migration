@@ -2016,25 +2016,5 @@ Organizations that master AI-powered migration don't just complete projects fast
 The AI revolution in cloud migration isn't coming—it's here. The organizations that embrace it now will define the future of cloud transformation. The question isn't whether to adopt AI-powered migration, but how quickly you can master it to drive your competitive advantage.
 
 **Welcome to the AI-accelerated migration era. Your transformation journey just became exponentially more powerful.**
-<span style="display:none">[^1][^2][^3][^4][^5][^6][^7][^8][^9]</span>
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://aws.amazon.com/solutions/case-studies/
-
-[^2]: https://aws.amazon.com/solutions/case-studies/hclsoftware-case-study/
-
-[^3]: https://aws.amazon.com/solutions/case-studies/iic-serverless-case-study/
-
-[^4]: https://www.applify.co/case-studies/ai-art-generator-platform
-
-[^5]: https://aws.amazon.com/blogs/apn/how-arcanum-ai-migrated-models-from-openai-to-aws-using-amazon-bedrock-and-amazon-sagemaker-jumpstart/
-
-[^6]: https://digitaldefynd.com/IQ/amazon-using-ai-case-study/
-
-[^7]: https://www.rapyder.com/blog/aws-cloud-migration-complete-guide/
-
-[^8]: https://addepto.com/case-studies/aws-migration-case-study/
-
-[^9]: https://www.cognizant.com/us/en/case-studies/aws-cloud-migration-healthcare
 
