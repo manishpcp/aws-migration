@@ -11908,7 +11908,7 @@ def evaluate_saas_vendors(requirements, vendors):
             'recommendation': 'recommended' if weighted_score > 7.5 else 'not_recommended'
         }
     
-    return sorted(evaluation_matrix.items(), key=lambda x: x[^1]['overall_score'], reverse=True)
+    return sorted(evaluation_matrix.items(), key=lambda x: x['overall_score'], reverse=True)
 
 vendor_evaluation = evaluate_saas_vendors(healthcare_requirements, ehr_vendors)
 selected_vendor = vendor_evaluation[^0]  # Highest scoring vendor
@@ -17384,7 +17384,7 @@ The future belongs to organizations that can transform continuously. Cloud migra
 -----
 *"The best time to plant a tree was 20 years ago. The second best time is now. The best time to start your cloud migration was yesterday. The second best time is right now."*
 
-**Your transformation awaits. Begin today.** <span style=display:none>[^1][^2][^3][^4][^5][^6][^7][^8][^9][^10]</span>
+**Your transformation awaits. Begin today.** <span style=display:none></span>
 
 <div center style=text-align:>⁂</div>
 # Appendix A: 7 Rs Decision Matrix and Selection Criteria
@@ -17614,14 +17614,14 @@ class SevenRsDecisionMatrix:
         """Generate final recommendation with confidence assessment"""
         
         # Sort strategies by score
-        sorted_strategies = sorted(strategy_scores.items(), key=lambda x: x[^1], reverse=True)
+        sorted_strategies = sorted(strategy_scores.items(), key=lambda x: x, reverse=True)
         
         primary_strategy = sorted_strategies[^0][^0]
-        primary_score = sorted_strategies[^0][^1]
+        primary_score = sorted_strategies[^0]
         
         # Calculate confidence based on score separation
         if len(sorted_strategies) > 1:
-            second_score = sorted_strategies[^1][^1]
+            second_score = sorted_strategies
             score_separation = primary_score - second_score
             confidence = min(0.95, 0.6 + (score_separation / 10) * 0.35)
         else:
@@ -17731,7 +17731,7 @@ for app in application_examples:
     print(f"Reasoning: {result['decision_reasoning']}")
     
     # Show top 3 strategy scores
-    sorted_scores = sorted(result['detailed_scores'].items(), key=lambda x: x[^1], reverse=True)
+    sorted_scores = sorted(result['detailed_scores'].items(), key=lambda x: x, reverse=True)
     print("Strategy Scores:")
     for strategy, score in sorted_scores[:3]:
         print(f"  {strategy.capitalize()}: {score:.2f}/10")
@@ -20317,7 +20317,7 @@ This appendix provides structured worksheets, calculators, and formulas to estim
 ## Overview of AWS Cost Estimation Tools
 - **AWS Pricing Calculator**: AWS's primary tool for building detailed cost estimates across all major services, supporting bulk import via Excel for large-scale migrations and scenario analysis.
 - **Migration Evaluator**: Complimentary to qualified customers, this tool inventories your environment and builds a data-driven cloud business case, including TCO and monthly/annual cost projections.
-- **AWS Migration Hub**: Lets you track migration progress for free; pay only for migration tooling and provisioned AWS resources.[^7]
+- **AWS Migration Hub**: Lets you track migration progress for free; pay only for migration tooling and provisioned AWS resources.
 - **Manual Worksheets**: For custom needs or offline analysis, structured spreadsheet templates (see below) facilitate detailed estimation and aggregation.
 -----
 ## 1\. Lift-and-Shift (Rehost) Cost Estimation Worksheet
@@ -20376,7 +20376,7 @@ This appendix provides structured worksheets, calculators, and formulas to estim
 
 |Cost Element|Input Example|Notes|
 | :- | :- | :- |
-|VPN/Direct Connect/Storage Gateway|Monthly service cost, setup|Hybrid connectivity charges[^2]|
+|VPN/Direct Connect/Storage Gateway|Monthly service cost, setup|Hybrid connectivity charges|
 |Systems Manager/CloudWatch|Per server or metric monitored|Some features free, others metered|
 |Ongoing On-Premises Ops|Maintain local infra, support, licenses|Account for both environments|
 
@@ -20416,7 +20416,7 @@ AWS provides a comprehensive Secure Migrations Framework specifically designed t
 1. **Security Documentation**
 1. **Security and Compliance Cloud Operations**
 
-[^1]
+
 
 -----
 ## 1\. Security Discovery and Alignment Framework
@@ -24003,16 +24003,3 @@ This completes the comprehensive 100+ AWS migration interview questions covering
 
 These questions and detailed answers provide comprehensive preparation for AWS migration interviews at any level, from entry-level positions to senior architect and consulting roles.
 ~~~
-
-~~~
-
-[^1]: https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html
-[^2]: https://k21academy.com/amazon-web-services/aws-migration/7r-cloud-migration-strategy-steps-to-successful-app-migration/
-[^3]: https://aws.amazon.com/blogs/enterprise-strategy/new-possibilities-seven-strategies-to-accelerate-your-application-migration-to-aws/
-[^4]: https://www.netapp.com/blog/aws-cvo-blg-strategies-for-aws-migration-the-new-7th-r-explained/
-[^5]: https://builder.aws.com/content/2cKbgI3WsAYTiDM0J48uEMVqOVW/understanding-the-7-rs-cloud-migration-strategies
-[^6]: https://www.wanclouds.net/blog/migration-as-a-service/the-7rs-of-aws-cloud-migration
-[^7]: https://dev.to/axeldlv/cloud-migration-strategies-the-7-rs-of-cloud-migration-56pe
-[^8]: https://interscale.com.au/blog/aws-migration-strategy/
-[^9]: https://tutorialsdojo.com/aws-migration-strategies-the-7-rs/
-[^10]: https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/overview.html
