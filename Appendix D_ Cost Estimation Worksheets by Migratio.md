@@ -8,8 +8,8 @@ This appendix provides structured worksheets, calculators, and formulas to estim
 
 ## Overview of AWS Cost Estimation Tools
 
-- **AWS Pricing Calculator**: AWS's primary tool for building detailed cost estimates across all major services, supporting bulk import via Excel for large-scale migrations and scenario analysis.[^2][^4][^8]
-- **Migration Evaluator**: Complimentary to qualified customers, this tool inventories your environment and builds a data-driven cloud business case, including TCO and monthly/annual cost projections.[^1]
+- **AWS Pricing Calculator**: AWS's primary tool for building detailed cost estimates across all major services, supporting bulk import via Excel for large-scale migrations and scenario analysis.
+- **Migration Evaluator**: Complimentary to qualified customers, this tool inventories your environment and builds a data-driven cloud business case, including TCO and monthly/annual cost projections.
 - **AWS Migration Hub**: Lets you track migration progress for free; pay only for migration tooling and provisioned AWS resources.[^7]
 - **Manual Worksheets**: For custom needs or offline analysis, structured spreadsheet templates (see below) facilitate detailed estimation and aggregation.
 
@@ -19,10 +19,10 @@ This appendix provides structured worksheets, calculators, and formulas to estim
 
 | Cost Element | Input Example | Notes |
 | :-- | :-- | :-- |
-| EC2 Instances | \#, type, region | Use AWS Pricing Calculator for instance cost[^8][^2] |
+| EC2 Instances | \#, type, region | Use AWS Pricing Calculator for instance cost |
 | EBS Volumes | \#, type, size | Account for provisioned IOPS or throughput |
 | Data Transfer | Out to Internet/AWS Regions | Include peak vs. baseline estimates |
-| Migration Tooling | AWS MGN (per server, per month) | Free for first 90 days, then paid per server[^9][^7] |
+| Migration Tooling | AWS MGN (per server, per month) | Free for first 90 days, then paid per server |
 | Support Plan | % of monthly AWS usage | Optional; for business/enterprise support |
 | Parallel Run (Dual Ops) | \# months kept on-prem running | Overlap period, adds to overall cost |
 | One-Time Migration Effort | Staff/Consultant hours | Labor costs, downtime mitigation |
@@ -30,7 +30,7 @@ This appendix provides structured worksheets, calculators, and formulas to estim
 **Example Calculation:**
 
 - 20 m5.large EC2 instances, 2 TB EBS, AWS MGN for 2 months, standard data transfer.
-- Use AWS Pricing Calculator's bulk import template for EC2/EBS.[^2]
+- Use AWS Pricing Calculator's bulk import template for EC2/EBS.
 
 ***
 
@@ -103,10 +103,10 @@ This appendix provides structured worksheets, calculators, and formulas to estim
 
 ## Tips and Resources
 
-- **Bulk import via AWS Pricing Calculator Excel Template**: For large migrations, download/import your server and storage inventory directly for automated calculations—Excel templates available.[^2]
-- **Migration Evaluator**: Request AWS's free business case analysis to receive a customized TCO workbook.[^1]
-- **Consult AWS Documentation**: For up-to-date price points and scenario walkthroughs, reference the AWS Pricing Calculator user guide and example estimates.[^4][^8]
-- **Service-Specific Price Pages**: Always verify with published AWS service pricing as underlying costs or tiers may change (e.g., EC2, RDS, Lambda, S3).[^7]
+- **Bulk import via AWS Pricing Calculator Excel Template**: For large migrations, download/import your server and storage inventory directly for automated calculations—Excel templates available.
+- **Migration Evaluator**: Request AWS's free business case analysis to receive a customized TCO workbook.
+- **Consult AWS Documentation**: For up-to-date price points and scenario walkthroughs, reference the AWS Pricing Calculator user guide and example estimates.
+- **Service-Specific Price Pages**: Always verify with published AWS service pricing as underlying costs or tiers may change (e.g., EC2, RDS, Lambda, S3).
 
 ***
 
