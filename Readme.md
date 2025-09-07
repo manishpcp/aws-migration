@@ -144,7 +144,7 @@ Imagine a flow chart starting with “Assess Application” at the top. Branches
 - “Is a SaaS replacement available at lower TCO?” (Yes: Repurchase; No: Continue)
 - “Is the app obsolete or underutilized?” (Yes: Retire; No: Retain)
 - Every branch ties back to business and Well-Architected considerations.
-
+https://www.iwisebusiness.com/wp-content/uploads/2025/09/aws-migration-flowchart-scaled.png
 ***
 
 Migration is no longer a leap of faith—it’s a science, an art, and now, in the cloud-powered era of 2025, a competitive differentiator. The next chapters will dig deeper into the 7 Rs, tactical migration playbooks, troubleshooting, and the “gotchas” I’ve scarred—and learned—from.
