@@ -806,27 +806,5 @@ Service_Dependencies_Matrix:
 This comprehensive AWS service comparison framework provides the detailed guidance needed to select optimal services for each migration strategy. The charts and decision trees help ensure you choose services that align with your specific requirements, performance needs, and cost objectives while maintaining the flexibility to evolve your architecture over time.
 
 Use these comparisons as a foundation for your service selection decisions, but always validate against your specific requirements through proof-of-concept testing and AWS Well-Architected Framework reviews.
-<span style="display:none">[^1][^10][^2][^3][^4][^5][^6][^7][^8][^9]</span>
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://docs.aws.amazon.com/decision-guides/latest/migration-on-aws-how-to-choose/migration-on-aws-how-to-choose.html
-
-[^2]: https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html
-
-[^3]: https://www.simform.com/blog/aws-migration-strategy/
-
-[^4]: https://aws.amazon.com/application-migration-service/when-to-choose-aws-mgn/
-
-[^5]: https://www.lucidity.cloud/blog/aws-migration-strategies
-
-[^6]: https://agileit.com/news/azure-migration-vs-aws-migration-key-differences/
-
-[^7]: https://tutorialsdojo.com/aws-migration-strategies-the-7-rs/
-
-[^8]: https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
-
-[^9]: https://www.stormit.cloud/blog/6-rs-aws-migration-strategies/
-
-[^10]: https://blog.synergyit.ca/cloud-migration-strategies-aws-vs-azure-vs-google/
 
