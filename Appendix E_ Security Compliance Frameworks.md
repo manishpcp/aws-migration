@@ -8,7 +8,7 @@ This appendix provides detailed security compliance frameworks, checklists, and 
 
 ## AWS Secure Migrations Framework Overview
 
-AWS provides a comprehensive Secure Migrations Framework specifically designed to address security and compliance during the mobilize phase of migration projects. The framework addresses five key domains:[^1][^4]
+AWS provides a comprehensive Secure Migrations Framework specifically designed to address security and compliance during the mobilize phase of migration projects. The framework addresses five key domains:
 
 1. **Security Discovery and Alignment**
 2. **Security Framework Mapping**
@@ -1022,23 +1022,7 @@ This comprehensive security compliance framework provides the structured approac
 - **Scalable:** Suitable for organizations of all sizes and complexity levels
 
 Use these frameworks as the foundation for your security and compliance program, customizing them based on your specific regulatory requirements and organizational policies.
-<span style="display:none">[^10][^2][^3][^5][^6][^7][^8][^9]</span>
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://docs.aws.amazon.com/prescriptive-guidance/latest/secure-migrations-framework/introduction.html
-
-[^2]: https://docs.aws.amazon.com/prescriptive-guidance/latest/secure-migrations-framework/team.html
-
-[^3]: https://docs.aws.amazon.com/prescriptive-guidance/latest/secure-migrations-framework/mapping.html
-
-[^4]: https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/secure-migrations-framework/secure-migrations-framework.pdf
-
-[^5]: https://docs.aws.amazon.com/prescriptive-guidance/latest/secure-migrations-framework/domains.html
-
-[^6]: https://www.crowdstrike.com/en-us/cybersecurity-101/cloud-security/aws-migration/
-
-[^7]: https://pages.awscloud.com/rs/112-TZM-766/images/AWS_FS_Cloud_Security_EBOOK_DG.pdf
 
 [^8]: https://aws.amazon.com/compliance/shared-responsibility-model/
 
