@@ -1830,23 +1830,9 @@ Migration gets you to the cloud, but optimization, innovation, and continuous im
 Your AWS environment is not just infrastructure—it's your platform for innovation, your engine for optimization, and your foundation for future growth. Treat it as such, and it will transform not just your technology, but your entire business.
 
 **Welcome to your cloud future. Make it extraordinary.**
-<span style="display:none">[^1][^2][^3][^4][^5][^6][^7][^8]</span>
 
-<div style="text-align: center">⁂</div>
 
-[^1]: https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/future-proofing-data-lake.html
 
-[^2]: https://aws.amazon.com/organizations/getting-started/best-practices/
 
-[^3]: https://www.guidepointsecurity.com/blog/future-proofing-your-aws-security-expert-insights-from-reinforce-2025/
 
-[^4]: https://moldstud.com/articles/p-future-proof-your-software-product-with-aws-technology-strategies-for-success
-
-[^5]: https://aws.amazon.com/blogs/containers/architecture-evolution-from-zero-to-future-proof-architecture-at-home24/
-
-[^6]: https://www.upwind.io/glossary/aws-security-explained
-
-[^7]: https://www.precisely.com/data-integration/best-practices-for-your-aws-cloud-migration/
-
-[^8]: https://futurumgroup.com/insights/integration-on-aws-develop-a-future-proof-integration-strategy-the-six-five/
 
