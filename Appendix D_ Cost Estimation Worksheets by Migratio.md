@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 # Appendix D: Cost Estimation Worksheets by Migration Type
 
 *Practical Worksheets and Methodologies for Accurate Migration Planning*
