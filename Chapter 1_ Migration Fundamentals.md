@@ -40,7 +40,7 @@ The assessment phase isn't just inventory—it's archaeological discovery. I rem
 aws discovery start-data-collection-by-agent-ids --agent-ids <discovered-agent-ids>
 
 # Generate application inventory
-aws discovery list-configurations --configuration-type Server
+aws discovery list-configurations --configuration-type SERVER
 ```
 
 **Real-World War Story:**
