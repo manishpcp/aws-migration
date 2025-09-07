@@ -1,7 +1,3 @@
-# Please create one Readme.md file for my git repo [https://github.com/manishpcp/aws-migration](https://github.com/manishpcp/aws-migration)
-
-Here’s a complete, ready-to-use README.md for the aws-migration repository, structured with clear sections and following GitHub README best practices. It includes a concise description, setup, usage, architecture, and contribution details tailored for an AWS migration toolkit, and mirrors conventions used in popular AWS migration sample repos and general README guidance.
-
 # AWS Migration
 
 A practical toolkit and reference for planning, executing, and automating migrations to AWS across common patterns: rehost (lift-and-shift), replatform, and selective modernization. It is designed to help bootstrap migration projects with reproducible scripts, recommended folder structure, and step-by-step runbooks.
