@@ -994,27 +994,5 @@ if validation_result['red_flags']:
 This comprehensive decision matrix and selection criteria provide a systematic, data-driven approach to 7 Rs strategy selection. The framework incorporates lessons learned from hundreds of successful migrations and provides the structure needed to make consistent, optimal migration decisions across entire application portfolios.
 
 The combination of quantitative scoring, qualitative assessment, industry-specific adjustments, and comprehensive validation ensures that strategy selections are not only technically sound but also aligned with business objectives and organizational capabilities.
-<span style="display:none">[^10][^2][^3][^4][^5][^6][^7][^8][^9]</span>
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/prioritization-and-migration-strategy.html
-
-[^2]: https://www.netapp.com/blog/aws-cvo-blg-strategies-for-aws-migration-the-new-7th-r-explained/
-
-[^3]: https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html
-
-[^4]: https://k21academy.com/amazon-web-services/aws-migration/7r-cloud-migration-strategy-steps-to-successful-app-migration/
-
-[^5]: https://faddom.com/cloud-migration-to-aws-3-phases-7-rs-and-5-free-tools-to-get-you-started/
-
-[^6]: https://tutorialsdojo.com/aws-migration-strategies-the-7-rs/
-
-[^7]: https://pages.awscloud.com/rs/112-TZM-766/images/Strategies_for_Accelerating_Migration_eBook.pdf
-
-[^8]: https://builder.aws.com/content/2cu0rPCVEkapPKKd5otL9OTWPSG/aws-cloud-migration-guide-explore-the-7-rs-strategy
-
-[^9]: https://aws.amazon.com/blogs/enterprise-strategy/new-possibilities-seven-strategies-to-accelerate-your-application-migration-to-aws/
-
-[^10]: https://www.tierpoint.com/blog/the-7-rs-of-cloud-migration-defining-what-you-need-to-know/
 
