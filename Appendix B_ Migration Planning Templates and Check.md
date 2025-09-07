@@ -1210,23 +1210,5 @@ The templates are designed to be:
 - **Risk-Aware:** Incorporating risk management and mitigation throughout
 
 Use these templates as starting points and customize them based on your specific requirements, organizational processes, and risk tolerance. Regular updates based on lessons learned will help improve the effectiveness of future migrations.
-<span style="display:none">[^1][^2][^3][^4][^5][^6][^7][^8]</span>
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-migration-playbook/welcome.html
-
-[^2]: https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration-connect/checklist.html
-
-[^3]: https://bluexp.netapp.com/blog/aws-migration-checklist
-
-[^4]: https://websitesapi.dataart.com/media/e1jpk2kf/aws-migration-checklist-updated.pdf
-
-[^5]: https://cloudairy.com/template/aws-migration-path/
-
-[^6]: https://docs.aws.amazon.com/mhj/latest/userguide/migration-templates.html
-
-[^7]: https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/rehost-on-premises-workloads-in-the-aws-cloud-migration-checklist.html
-
-[^8]: https://allcode.com/aws-migration-checklist/
 
