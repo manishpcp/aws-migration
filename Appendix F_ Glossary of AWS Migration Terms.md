@@ -10,7 +10,7 @@ This glossary provides clear definitions of key terms, acronyms, and concepts us
 
 ### 7 Rs
 
-Seven common migration strategies for moving applications to the cloud, as defined by AWS:[^1][^3][^5]
+Seven common migration strategies for moving applications to the cloud, as defined by AWS:
 
 - **Retire** - Decommission applications no longer needed
 - **Retain** - Keep applications in source environment
@@ -38,7 +38,7 @@ AWS service that automates lift-and-shift migrations by replicating source serve
 
 ### Assessment
 
-The first phase of AWS migration methodology focused on evaluating current state, building business case, and planning migration approach.[^3]
+The first phase of AWS migration methodology focused on evaluating current state, building business case, and planning migration approach.
 
 ### Auto Scaling
 
@@ -94,7 +94,7 @@ The process of switching from source systems to migrated systems in AWS, marking
 
 ### Database Migration Service (DMS)
 
-AWS service that migrates databases to AWS with minimal downtime, supporting both homogeneous and heterogeneous migrations.[^2][^10]
+AWS service that migrates databases to AWS with minimal downtime, supporting both homogeneous and heterogeneous migrations.
 
 ### Data Transfer Service
 
@@ -154,27 +154,26 @@ AWS threat detection service that uses machine learning to identify malicious ac
 
 ### Heterogeneous Database Migration
 
-Migrating between different database engines (e.g., Oracle to PostgreSQL), typically requiring schema conversion.[^1]
+Migrating between different database engines (e.g., Oracle to PostgreSQL), typically requiring schema conversion.
 
 ### High Availability (HA)
 
-System design that ensures continuous operation with minimal downtime through redundancy and failover mechanisms.[^1]
+System design that ensures continuous operation with minimal downtime through redundancy and failover mechanisms.
 
 ### Homogeneous Database Migration
 
-Migrating between the same database engines (e.g., MySQL to MySQL), typically simpler than heterogeneous migrations.[^1]
+Migrating between the same database engines (e.g., MySQL to MySQL), typically simpler than heterogeneous migrations.
 
 ### Hot Data
 
-Frequently accessed data requiring high-performance storage tiers for fast query responses.[^1]
-
+Frequently accessed data requiring high-performance storage tiers for fast query responses.
 ### Hybrid Cloud
 
 Computing environment that combines on-premises infrastructure with cloud services, often used during migration transitions.
 
 ### Hypercare Period
 
-Intensive monitoring and support period immediately following migration cutover, typically lasting 1-4 days.[^1]
+Intensive monitoring and support period immediately following migration cutover, typically lasting 1-4 days.
 
 ***
 
@@ -222,31 +221,31 @@ See Rehost - migrating applications to cloud without significant changes to take
 
 ### Migration Acceleration Program (MAP)
 
-AWS program providing consulting support, training, and services to help organizations migrate to cloud with proven methodologies.[^3][^1]
+AWS program providing consulting support, training, and services to help organizations migrate to cloud with proven methodologies.
 
 ### Migration Factory
 
-Cross-functional teams that streamline migration through automated, agile approaches, typically handling 20-50% of applications with repeated patterns.[^1]
+Cross-functional teams that streamline migration through automated, agile approaches, typically handling 20-50% of applications with repeated patterns.
 
 ### Migration Hub
 
-AWS service providing a single location to track migration tasks across multiple AWS tools and partner solutions.[^4][^1]
+AWS service providing a single location to track migration tasks across multiple AWS tools and partner solutions.
 
 ### Migration Pattern
 
-Repeatable migration task detailing strategy, destination, and tools/services used for specific types of applications.[^1]
+Repeatable migration task detailing strategy, destination, and tools/services used for specific types of applications.
 
 ### Migration Portfolio Assessment (MPA)
 
-Online tool providing detailed portfolio assessment including server right-sizing, pricing, TCO analysis, and wave planning.[^1]
+Online tool providing detailed portfolio assessment including server right-sizing, pricing, TCO analysis, and wave planning.
 
 ### Migration Readiness Assessment (MRA)
 
-Process of evaluating organization's cloud readiness using AWS CAF, identifying strengths/weaknesses and building action plans.[^1]
+Process of evaluating organization's cloud readiness using AWS CAF, identifying strengths/weaknesses and building action plans.
 
 ### Migration Strategy
 
-Approach used to migrate workloads to AWS Cloud, typically one of the 7 Rs migration strategies.[^1]
+Approach used to migrate workloads to AWS Cloud, typically one of the 7 Rs migration strategies.
 
 ### Migration Wave
 
@@ -254,7 +253,7 @@ Grouping of applications migrated together based on dependencies, complexity, ri
 
 ### Mobilize
 
-Second phase of AWS migration methodology focused on building foundation, capabilities, and operating model for migration.[^3]
+Second phase of AWS migration methodology focused on building foundation, capabilities, and operating model for migration.
 
 ### Modernize
 
@@ -274,15 +273,15 @@ Layer 4 load balancer that distributes traffic based on network protocols, provi
 
 ### Offline Migration
 
-Migration method requiring source workload downtime during the process, typically used for non-critical applications.[^1]
+Migration method requiring source workload downtime during the process, typically used for non-critical applications.
 
 ### Online Migration
 
-Migration method allowing source workload to remain operational during migration, minimizing or eliminating downtime.[^1]
+Migration method allowing source workload to remain operational during migration, minimizing or eliminating downtime.
 
 ### Operational Readiness Review (ORR)
 
-Checklist and best practices to evaluate, prevent, or reduce scope of incidents and failures in migrated environments.[^1]
+Checklist and best practices to evaluate, prevent, or reduce scope of incidents and failures in migrated environments.
 
 ***
 
@@ -302,7 +301,7 @@ AWS managed database service supporting multiple database engines (MySQL, Postgr
 
 ### Refactor/Re-architect
 
-Migration strategy involving significant code and architecture changes to take full advantage of cloud-native features.[^5][^3][^1]
+Migration strategy involving significant code and architecture changes to take full advantage of cloud-native features.
 
 ### Region
 
@@ -310,19 +309,19 @@ Geographic area containing multiple isolated Availability Zones, allowing deploy
 
 ### Rehost (Lift and Shift)
 
-Migration strategy moving applications to cloud without changes, typically the fastest migration approach.[^5][^3][^1]
+Migration strategy moving applications to cloud without changes, typically the fastest migration approach.
 
 ### Relocate (Hypervisor-level Lift and Shift)
 
-Migration strategy for moving infrastructure without purchasing new hardware or rewriting applications, such as VMware to VMware Cloud on AWS.[^5][^3][^1]
+Migration strategy for moving infrastructure without purchasing new hardware or rewriting applications, such as VMware to VMware Cloud on AWS.
 
 ### Replatform (Lift, Tinker, and Shift)
 
-Migration strategy involving application migration with some cloud optimization without changing core architecture.[^3][^5][^1]
+Migration strategy involving application migration with some cloud optimization without changing core architecture.
 
 ### Repurchase (Drop and Shop)
 
-Migration strategy replacing applications with SaaS alternatives or different product versions.[^5][^3][^1]
+Migration strategy replacing applications with SaaS alternatives or different product versions.
 
 ### Reserved Instances (RI)
 
@@ -330,11 +329,11 @@ Purchasing model providing significant discounts compared to On-Demand pricing i
 
 ### Retain (Revisit)
 
-Migration strategy keeping applications in source environment, typically for applications requiring major refactoring or having no business justification for migration.[^3][^5][^1]
+Migration strategy keeping applications in source environment, typically for applications requiring major refactoring or having no business justification for migration.
 
 ### Retire
 
-Migration strategy involving decommissioning applications no longer needed, providing immediate cost savings.[^5][^3][^1]
+Migration strategy involving decommissioning applications no longer needed, providing immediate cost savings.
 
 ### Right-sizing
 
@@ -418,34 +417,12 @@ Collection of resources and code that delivers business value, such as customer-
 
 ***
 
-This glossary serves as a comprehensive reference for AWS migration terminology. For the most current AWS terminology and definitions, always refer to the official AWS Glossary and service-specific documentation.[^8][^2][^4][^1]
+This glossary serves as a comprehensive reference for AWS migration terminology. For the most current AWS terminology and definitions, always refer to the official AWS Glossary and service-specific documentation.
 
 **Key Resources for Updated Terminology:**
 
-- [AWS Prescriptive Guidance Glossary](https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/apg-gloss.html)[^1]
-- [AWS General Glossary](https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html)[^4]
-- [AWS Migration Lens Definitions](https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/definitions.html)[^3]
-<span style="display:none">[^6][^7][^9]</span>
+- [AWS Prescriptive Guidance Glossary](https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/apg-gloss.html)
+- [AWS General Glossary](https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html)
+- [AWS Migration Lens Definitions](https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/definitions.html)
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/apg-gloss.html
-
-[^2]: https://docs.aws.amazon.com/dms/latest/userguide/glossary.html
-
-[^3]: https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/definitions.html
-
-[^4]: https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html
-
-[^5]: https://www.objectstyle.com/blog/a-cloud-migration-glossary-50-essential-terms
-
-[^6]: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/dotnet-migrating-applications-glossary.html
-
-[^7]: https://graduate.northeastern.edu/knowledge-hub/aws-terminology/
-
-[^8]: https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/glossary.html
-
-[^9]: https://www.clouddefense.ai/glossary/aws
-
-[^10]: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Introduction.html
 
